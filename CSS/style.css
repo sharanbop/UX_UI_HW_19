@@ -1,11 +1,16 @@
 body {
+    background-color: #FFFDFB;
     font-family: "degular", sans-serif;
+    font-size: 18px;
+}
+
+.logo{
+    margin-left: 10px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: #FFFDFB;
 }
 
 nav ul {
@@ -15,7 +20,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    padding: 0 20px
+    padding: 0 40px
 }
 
 nav ul li a {
@@ -28,6 +33,7 @@ nav ul li a {
     flex-direction: row-reverse;
     max-width: 1100px;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
 @media (max-width: 799px) {
@@ -36,10 +42,44 @@ nav ul li a {
     }
 }
 
+.talkButton{
+    background-color: #29487D;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.CVButton{
+    stroke: #EFC35B, 10px;
+    border-radius: 10px;
+}
+.projectButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0px auto;
+    margin-top: 150px;
+}
+
+.scrollButton{
+    background-color: #29487D;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.chevron{
+    margin-top: 25px;
+}
+
 .about {
     display: flex;
-    max-width: 1400px;
-    margin-top: 40px;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin-top: 100px;
     margin-right: auto;
     margin-bottom: 0;
     margin-left: auto;
@@ -51,39 +91,44 @@ nav ul li a {
     }
 }
 
-.skills,
+
 .Education {
     flex: 50% 0 0;
 }
 
 .skills {
+    list-style: none;
     font-size: 25pt;
     font-family: "new-kansas", sans-serif;
     font-weight: 800;
     font-style: normal;
 }
 
-h1 {
+h1{
+    width: 550px;
     font-size: 45pt;
     font-family: "manteiga-gorda", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
-h2 {
+h2{
     font-size: 30pt;
     font-family: "new-kansas", sans-serif;
     font-weight: 800;
     font-style: normal;
 }
-
-h3 {
+h3{
     font-size: 25pt;
     font-family: "new-kansas", sans-serif;
     font-weight: 800;
     font-style: normal;
 }
-
+h4{
+    font-size: 25pt;
+    font-family: "marydale", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 p {
     font-size: 18pt;
     font-weight: 400;
