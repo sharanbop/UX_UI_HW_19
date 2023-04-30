@@ -4,6 +4,10 @@ body {
     font-size: 18px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .logo{
     margin-left: 10px;
 }
@@ -60,7 +64,7 @@ nav ul li a {
     align-items: center;
     max-width: 1100px;
     margin: 0px auto;
-    margin-top: 150px;
+    margin-top: 300px;
 }
 
 .scrollButton{
@@ -69,10 +73,52 @@ nav ul li a {
     color: white;
     text-decoration: none;
     border-radius: 20px;
+    scroll-behavior: smooth;
 }
 
 .chevron{
     margin-top: 25px;
+}
+
+.projectBody{
+    display: flex;
+    max-width: 1500px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+#WSF{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1500px;
+}
+
+#CFIA{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1500px;
+}
+
+#FlyThere{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1500px;
+}
+
+.projectTextRight{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.projectTextLeft{
+    text-align: left;
+    margin-right: 20px;
 }
 
 .about {
@@ -90,7 +136,6 @@ nav ul li a {
         display: block;
     }
 }
-
 
 .Education {
     flex: 50% 0 0;
