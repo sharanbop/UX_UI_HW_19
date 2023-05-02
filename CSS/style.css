@@ -15,6 +15,7 @@ html{
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 1%;
 }
 
 nav ul {
@@ -64,7 +65,11 @@ nav ul li a {
     align-items: center;
     max-width: 1100px;
     margin: 0px auto;
-    margin-top: 300px;
+    margin-top: 150px;
+}
+.aboutProject{
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .scrollButton{
@@ -91,7 +96,7 @@ nav ul li a {
 }
 
 #WSF{
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     max-width: 1500px;
@@ -119,6 +124,14 @@ nav ul li a {
 .projectTextLeft{
     text-align: left;
     margin-right: 20px;
+}
+
+.readMoreButton{
+    background-color: #29487D;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
 }
 
 .about {
